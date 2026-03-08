@@ -6,7 +6,7 @@
 ## 실행화면
 <img width="1710" height="919" alt="image" src="https://github.com/user-attachments/assets/24e78476-21e4-412e-833d-a8a13c271f4e" />
 
-### 구현시어려웠던점
+## 구현시어려웠던점
 1.마우스 효과를 추가하는 법을 몰라서 혼란스러웠음
 -이벤트 탭 존재를 알게 되면서 해결
 
