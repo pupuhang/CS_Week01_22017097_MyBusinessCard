@@ -51,6 +51,8 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
+            pictureBox1.MouseEnter += pictureBox1_MouseEnter;
+            pictureBox1.MouseLeave += pictureBox1_MouseLeave;
             // 
             // label1
             // 
@@ -88,6 +90,7 @@
             // button1
             // 
             button1.BackColor = Color.Gray;
+            button1.Cursor = Cursors.Hand;
             button1.Font = new Font("함초롬바탕", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
             button1.Location = new Point(558, 332);
@@ -101,6 +104,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.Cursor = Cursors.Hand;
             label4.Font = new Font("맑은 고딕", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label4.ForeColor = SystemColors.Highlight;
             label4.Location = new Point(356, 246);
@@ -112,6 +116,7 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(321, 238);
             pictureBox2.Name = "pictureBox2";
@@ -123,6 +128,7 @@
             // 
             // button2
             // 
+            button2.Cursor = Cursors.Hand;
             button2.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.ForeColor = Color.Black;
             button2.Location = new Point(135, 286);

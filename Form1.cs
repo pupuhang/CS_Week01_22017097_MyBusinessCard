@@ -33,5 +33,15 @@ namespace MyBusinessCard
         {
             pictureBox1.Image = Properties.Resources.new_pic;
         }
+
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox1.BorderStyle = BorderStyle.Fixed3D;
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.BorderStyle = BorderStyle.None;
+        }
     }
 }
