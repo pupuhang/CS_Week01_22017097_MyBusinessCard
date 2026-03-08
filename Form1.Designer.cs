@@ -28,12 +28,95 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            pictureBox1 = new PictureBox();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            button1 = new Button();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(64, 79);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(152, 201);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("한컴 고딕", 35.9999962F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(321, 79);
+            label1.Name = "label1";
+            label1.Size = new Size(162, 62);
+            label1.TabIndex = 1;
+            label1.Text = "최지웅";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("함초롬돋움", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.FromArgb(64, 64, 64);
+            label2.Location = new Point(321, 141);
+            label2.Name = "label2";
+            label2.Size = new Size(135, 24);
+            label2.TabIndex = 2;
+            label2.Text = "컴퓨터 s.w학과";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("함초롬돋움", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.FromArgb(64, 64, 64);
+            label3.Location = new Point(321, 200);
+            label3.Name = "label3";
+            label3.Size = new Size(202, 27);
+            label3.TabIndex = 3;
+            label3.Text = "zp2558@gmail.com";
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Gray;
+            button1.Font = new Font("함초롬바탕", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(581, 351);
+            button1.Name = "button1";
+            button1.Size = new Size(129, 41);
+            button1.TabIndex = 4;
+            button1.Text = "배경색 랜덤 변경";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(pictureBox1);
+            ForeColor = Color.Transparent;
+            Name = "Form1";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private PictureBox pictureBox1;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Button button1;
     }
 }
